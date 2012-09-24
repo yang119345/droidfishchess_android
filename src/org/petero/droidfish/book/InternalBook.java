@@ -119,7 +119,7 @@ final class InternalBook implements IOpeningBook {
             throw new RuntimeException();
         } catch (IOException ex) {
             System.out.println("Can't read opening book resource");
-            throw new RuntimeException();
+//            throw new RuntimeException();
         }
 /*        {
             long t1 = System.currentTimeMillis();
